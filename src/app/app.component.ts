@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-raiz',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'miprimeraApp1';
+  title = 'miprimeraApp';
+
+  saludo = "Hola amigos de Angualar que tal estais?"
 }
